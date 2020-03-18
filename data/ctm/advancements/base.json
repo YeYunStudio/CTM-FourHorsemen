@@ -1,0 +1,28 @@
+{
+	"display":{
+		"icon":{
+			"item":"minecraft:diamond_sword"
+		},
+		"title":{
+			"text":"利刃",
+			"color":"aqua",
+			"bold":true
+		},
+		"background":"minecraft:textures/blocks/ice.png",
+		"description":{
+			"text":"",
+			"color":"gold"
+		}
+	},
+	"criteria":{
+		"DiamondSword":{
+			"trigger":"minecraft:inventory_changed",
+			"conditions":{
+				"items":[{
+					"item":"minecraft:diamond_sword",
+					"nbt":"{ench:[{id:16,lvl:5}]}"
+				}
+			]}
+		}
+	}
+}
