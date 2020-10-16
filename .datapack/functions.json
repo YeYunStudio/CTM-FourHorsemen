@@ -1,1 +1,1 @@
-{"ctm":{"$func":["_","start","setup","base","_","start","setup","base","_","start","setup","base","_","start","setup","base"]}}
+{"ctm":{"check":{"$func":["game_setup","resourcepack_test","game_setup","datapack_test"]},"$func":["_","start","base"]}}
